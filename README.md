@@ -42,7 +42,7 @@ https://viacep.com.br/ws/60311020/json/
 > [!IMPORTANT]
 > Alguns CEPs podem não conter todas as informações.
 ## Responsabilidade da API Externa
-Este projeto utiliza o serviço de [ViaCEP](https://viacep.com.br/), uma API pública brasileira para consulta de CEPs mantida por [Marcelo D'Ávila]https://viacep.com.br/sobre/ e colaboradores. 
+Este projeto utiliza o serviço de ViaCEP https://viacep.com.br/, uma API pública brasileira para consulta de CEPs mantida por Marcelo D'Ávila https://viacep.com.br/sobre/ e colaboradores. 
 
 **Atenção:**  
 - Eventuais falhas na precisão dos dados  
