@@ -1,10 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
 
-*{
+* {
     font-family: "Roboto";
 }
 
-header{
+header {
     text-align: center;
     color: white;
     background-color: #183249;
@@ -12,7 +12,7 @@ header{
     margin-bottom: 8px;
 }
 
-footer{
+footer {
     text-align: center;
     justify-content: center;
     align-items: center;
@@ -25,27 +25,70 @@ footer{
     position: fixed;
 }
 
-.form{
+.form {
     display: flex;
     justify-content: center;
     gap: 2px;
 }
 
-.info{
+.info {
     display: flex;
     align-items: center;
     flex-direction: column;
     opacity: 0.5;
 }
 
-button{
+button {
     box-shadow: 10px,10px,10px,5px;
     border: none;
-    cursor:pointer;
+    cursor: pointer;
     width: 100px;
     transition: ease;
 }
-button:active{
-transition: ease 1s;
-transform: scale(1.1,1.1);
+
+button:active {
+    transition: ease 1s;
+    transform: scale(1.1,1.1);
+}
+
+@media (max-width: 768px) {
+    header {
+        padding: 4% 2%;
+    }
+    
+    footer {
+        padding: 3%;
+        font-size: 0.9em;
+    }
+    
+    .form {
+        flex-wrap: wrap;
+        gap: 5px;
+        padding: 10px;
+    }
+    
+    button {
+        width: 120px;
+    }
+}
+
+@media (max-width: 480px) {
+    header {
+        padding: 5% 2%;
+    }
+    
+    .form {
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    button {
+        width: 100%;
+        max-width: 200px;
+    }
+    
+    .info {
+        margin: 20px 0;
+        text-align: center;
+    }
 }

@@ -31,7 +31,7 @@ https://viacep.com.br/ws/60311020/json/
 
 - [x] Busca do cep
 - [x] limpar dados
-- [ ] responsividade
+- [x] responsividade
 - [x] rodapé
 - [ ] melhorando o desing
 
@@ -41,6 +41,15 @@ https://viacep.com.br/ws/60311020/json/
 
 > [!IMPORTANT]
 > Alguns CEPs podem não conter todas as informações.
+## Responsabilidade da API Externa
+Este projeto utiliza o serviço de [ViaCEP](https://viacep.com.br/), uma API pública brasileira para consulta de CEPs mantida por [Marcelo D'Ávila]https://viacep.com.br/sobre/ e colaboradores. 
+
+**Atenção:**  
+- Eventuais falhas na precisão dos dados  
+- Indisponibilidade do serviço  
+- Alterações não documentadas na API  
+
+São de responsabilidade exclusiva dos mantenedores da API ViaCEP. Para questões relacionadas ao serviço, contate diretamente através do site oficial https://viacep.com.br/contato/.
 
 ## Contatos
-Email: flugelddlc@gmail.com
+Email: victorddlc21@gmail.com
