@@ -33,7 +33,7 @@ https://viacep.com.br/ws/60311020/json/
 - [x] limpar dados
 - [x] responsividade
 - [x] rodapé
-- [ ] melhorando o desing
+- [x] melhoria de desing
 
 ### Observações
 > [!NOTE]

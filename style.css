@@ -2,6 +2,9 @@
 
 * {
     font-family: "Roboto";
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
 
 header {
@@ -10,6 +13,14 @@ header {
     background-color: #183249;
     padding: 2%;
     margin-bottom: 8px;
+    background: #2c3e50;
+    padding: 1.5rem;
+    font-size: 1.5rem;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+body {
+    background: #f8f9fa;
 }
 
 footer {
@@ -23,12 +34,26 @@ footer {
     bottom: 0%;
     left: 0%;
     position: fixed;
+    background: #2c3e50;
+    padding: 1rem;
+    font-size: 0.9rem;
+}
+.info p {
+    margin: 0.5rem 0;
+    
 }
 
 .form {
     display: flex;
     justify-content: center;
     gap: 2px;
+    gap: 0.5rem;
+    padding: 1rem;
+    margin: 2rem 0;
+}
+
+button:last-child {
+    background: #95a5a6;
 }
 
 .info {
@@ -36,7 +61,15 @@ footer {
     align-items: center;
     flex-direction: column;
     opacity: 0.5;
-}
+    background: white;
+    padding: 1.5rem;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    margin: 1rem auto;
+    width: 90%;
+    max-width: 500px;
+    }
+
 
 button {
     box-shadow: 10px,10px,10px,5px;
@@ -44,12 +77,27 @@ button {
     cursor: pointer;
     width: 100px;
     transition: ease;
+    padding: 0.8rem 1.2rem;
+    border-radius: 5px;
+    background: #3498db;
+    color: white;
+}
+
+input#cep {
+    padding: 0.8rem;
+    border: 2px solid #ddd;
+    border-radius: 5px;
+    width: 200px;
+    font-size: 1.3rem; 
+    padding: 1rem 1.2rem;
 }
 
 button:active {
     transition: ease 1s;
     transform: scale(1.1,1.1);
 }
+
+
 
 @media (max-width: 768px) {
     header {
@@ -59,6 +107,10 @@ button:active {
     footer {
         padding: 3%;
         font-size: 0.9em;
+    }
+
+    input#cep {
+        font-size: 1.1rem;
     }
     
     .form {
